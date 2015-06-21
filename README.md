@@ -15,3 +15,7 @@ The data (located in the data folder) was obtained from:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
 ## Usage
+'''
+git clone 
+
+'''
