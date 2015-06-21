@@ -1,5 +1,4 @@
-# GettingAndCleaningDataCourseProject
-Coursera: Getting and Cleaning Data Project
+# Coursera Getting and Cleaning Data Course Project
 
 # run_analysis.R
 This does the following:
@@ -10,6 +9,9 @@ This does the following:
 * Appropriately labels the data set with descriptive variable names. 
 * From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-# data
+
+## Data
 The data (located in the data folder) was obtained from: 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+
+## Usage
