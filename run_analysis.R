@@ -137,7 +137,6 @@ z = merge(al, z, by='activity',all=T)
 z = cbind(sd, z)
 
 setDT(z)
-names(z)
 
 r = melt(z, c('activity', 'activityname', 'subject'), na.rm=T)
 r <- dcast(r, subject + activity + activityname ~ variable, mean)
