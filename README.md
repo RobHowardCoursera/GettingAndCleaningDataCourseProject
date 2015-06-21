@@ -23,6 +23,30 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
   * e.g. you should have file C:/temp/GettingAndCleaningDataCourseProject/UCI HAR Dataset/activity_labels.txt
 * Run the script. In Windows, this might be done as follows:
 
-    ```"C:\Program Files\R\R-3.1.3\bin\Rscript.exe" run_analysis.R```
+```"C:\Program Files\R\R-3.1.3\bin\Rscript.exe" run_analysis.R```
 
+* The output should show:
 
+```
+--> Reading data set "UCI HAR Dataset/features.txt"
+-->   Dimensions 561 2
+--> Reading data set "UCI HAR Dataset/test/X_test.txt"
+-->   Dimensions 2947 561
+--> Reading data set "UCI HAR Dataset/train/X_train.txt"
+-->   Dimensions 7352 561
+--> Merging data sets
+-->   Dimensions 10299 79
+--> Reading data set "UCI HAR Dataset/activity_labels.txt"
+-->   Dimensions 6 2
+--> Reading data set "UCI HAR Dataset/test/y_test.txt"
+-->   Dimensions 2947 1
+--> Reading data set "UCI HAR Dataset/train/y_train.txt"
+-->   Dimensions 7352 1
+-->   Dimensions 10299 1
+--> Reading data set "UCI HAR Dataset/test/subject_test.txt"
+-->   Dimensions 2947 1
+--> Reading data set "UCI HAR Dataset/train/subject_train.txt"
+-->   Dimensions 7352 1
+-->   Dimensions 10299 1
+--> Wrote tidy data to "tidy.txt"
+```
